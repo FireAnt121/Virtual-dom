@@ -1,0 +1,24 @@
+{
+  "name": "virtualdom",
+  "version": "1.0.0",
+  "description": "learn to make virtual dom",
+  "main": "index.js",
+  "scripts": {
+    "d": "ts-node index.ts",
+    "dev": "live-server .",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "author": "FireAnt",
+  "license": "ISC",
+  "devDependencies": {
+    "gts": "^5.2.0",
+    "typescript": "~5.2.0",
+    "@types/node": "20.8.2"
+  }
+}
