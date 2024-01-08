@@ -1,4 +1,9 @@
 import DOMRoot from "./core/root";
 
-const app = DOMRoot.createRoot();
-app.render();
+DOMRoot.createRoot(document.getElementById('root')!).render({
+  tagName: 'div',
+  attrs: {
+    id: 'app'
+  }
+});
+

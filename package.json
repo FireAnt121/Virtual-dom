@@ -17,8 +17,10 @@
   "author": "FireAnt",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.23.3",
+    "@types/node": "20.8.2",
     "gts": "^5.2.0",
-    "typescript": "~5.2.0",
-    "@types/node": "20.8.2"
+    "typescript": "~5.2.0"
   }
 }

@@ -1,6 +1,6 @@
-import { vElement, AppType, elementType } from "../types";
+import { vElement, AppType, elementTags } from "../types";
 
-export const createElement = (tagName: elementType, { attrs, children }: AppType): vElement => {
+export const createElement = (tagName: elementTags, { attrs, children }: AppType): vElement => {
   return { tagName, attrs, children }
 }
 
